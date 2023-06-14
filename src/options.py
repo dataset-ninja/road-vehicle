@@ -65,7 +65,7 @@ HEATMAP_OUTPUT_WIDTH: int = 1200
 ###############################################################
 
 
-def get_visualization_settings():
+def get_visualization_options():
     vis_settings = {
         "Poster": {
             "title": POSTER_TITLE,
@@ -104,7 +104,7 @@ def get_visualization_settings():
     return checked_vis_settings
 
 
-def get_stats_settings():
+def get_stats_options():
     stats_settings = {
         "ClassesPreview": {
             "row_height": CLASSES_PREVIEW_ROW_HEIGHT,
