@@ -4,6 +4,6 @@ The dataset consists of 3004 images with 24348 labeled objects belonging to 21 d
 
 Each image in the Road Vehicle dataset has bounding boxes annotations. There are 2 (0% of the total) unlabeled images (i.e. without annotations). There are 2 splits in the dataset: *train* (2704 images) and *valid* (300 images). The dataset was released in 2021.
 
-Here are the visualized examples for each of the 21 classes:
+Here is the visualized example grid with annotations:
 
-[Dataset classes](https://github.com/dataset-ninja/road-vehicle/raw/main/visualizations/classes_preview.webm)
+<img src="https://github.com/dataset-ninja/road-vehicle/raw/main/visualizations/horizontal_grid.png">
