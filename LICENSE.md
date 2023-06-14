@@ -1,0 +1,1 @@
+Road Vehicle Images Dataset is under [Open Data Commons Database Contents License v1.0](https://opendatacommons.org/licenses/dbcl/1-0/) license.
