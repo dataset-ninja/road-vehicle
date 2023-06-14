@@ -86,9 +86,6 @@ def get_visualization_options():
             "cols": SIDE_ANNOTATIONS_GRID_COLS,
             "is_detection_task": SIDE_ANNOTATIONS_GRID_IS_DETECTION_TASK,
         },
-        "Previews": {
-            "is_detection_task": PREVIEWS_IS_DETECTION_TASK,
-        },
     }
 
     checked_vis_settings = {}
@@ -117,6 +114,9 @@ def get_stats_options():
             "grid_spacing": HEATMAP_GRID_SPACING,
             "outer_grid_spacing": HEATMAP_OUTER_GRID_SPACING,
             "output_width": HEATMAP_OUTPUT_WIDTH,
+        },
+        "Previews": {
+            "is_detection_task": PREVIEWS_IS_DETECTION_TASK,
         },
     }
 
