@@ -108,6 +108,8 @@ def get_stats_options():
         "ClassesPreview": {
             "row_height": CLASSES_PREVIEW_ROW_HEIGHT,
             "pad": CLASSES_PREVIEW_PADDINGS,
+            "rows": CLASSES_PREVIEW_ROWS,
+            "gap": CLASSES_PREVIEW_GAP,
         },
         "ClassesHeatmaps": {
             "draw_style": DRAW_STYLE,
