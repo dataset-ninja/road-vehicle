@@ -13,4 +13,4 @@ import dataset_tools as dtools
 
 dtools.download(dataset='Road Vehicle', dst_path='~/dtools/datasets/Road Vehicle.tar')
 ```
-The data in original format can be 🔗[downloaded here.](https://www.kaggle.com/datasets/ashfakyeafi/road-vehicle-images-dataset/download?datasetVersionNumber=1)
+The data in original format can be 🔗[downloaded here](https://www.kaggle.com/datasets/ashfakyeafi/road-vehicle-images-dataset/download?datasetVersionNumber=1)
