@@ -1,4 +1,4 @@
-**Road Vehicle Images Dataset** is a dataset for object detection tasks. Possible applications of the dataset could be in the utilities and automotive industries. 
+**Road Vehicle Images Dataset** is a dataset for an object detection task. Possible applications of the dataset could be in the utilities and automotive industries. 
 
 The dataset consists of 3004 images with 24348 labeled objects belonging to 21 different classes including *car*, *bus*, *motorbike*, and other: *three wheelers -CNG-*, *rickshaw*, *truck*, *pickup*, *minivan*, *suv*, *van*, *bicycle*, *auto rickshaw*, *human hauler*, *wheelbarrow*, *ambulance*, *minibus*, *taxi*, *army vehicle*, *scooter*, *policecar*, and *garbagevan*.
 
