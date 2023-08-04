@@ -20,7 +20,6 @@ PROJECT_NAME_FULL: Optional[str] = "Road Vehicle Images Dataset"
 # * After uploading to instance ##
 ##################################
 LICENSE: License = License.DbCL_1_0()
-INDUSTRIES: List[Industry] = [Industry.Industrial()]
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [
     Industry.Utilities(is_used=False),
     Industry.Automotive(is_used=False),
