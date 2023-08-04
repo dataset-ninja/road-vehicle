@@ -50,7 +50,29 @@ DOWNLOAD_ORIGINAL_URL: Optional[
 ] = "https://www.kaggle.com/datasets/ashfakyeafi/road-vehicle-images-dataset/download?datasetVersionNumber=1"
 # Optional link for downloading original dataset (e.g. "https://some.com/dataset/download")
 
-CLASS2COLOR: Optional[Dict[str, List[str]]] = None
+CLASS2COLOR: Optional[Dict[str, List[str]]] = {
+    "car": [230, 25, 75],
+    "bicycle": [60, 180, 75],
+    "bus": [255, 225, 25],
+    "motorbike": [0, 130, 200],
+    "three wheelers -CNG-": [245, 130, 48],
+    "rickshaw": [145, 30, 180],
+    "truck": [70, 240, 240],
+    "pickup": [240, 50, 230],
+    "minivan": [210, 245, 60],
+    "suv": [250, 190, 212],
+    "van": [0, 128, 128],
+    "auto rickshaw": [220, 190, 255],
+    "human hauler": [170, 110, 40],
+    "wheelbarrow": [255, 250, 200],
+    "ambulance": [128, 0, 0],
+    "minibus": [170, 255, 195],
+    "taxi": [128, 128, 0],
+    "army vehicle": [255, 215, 180],
+    "scooter": [0, 0, 128],
+    "policecar": [128, 128, 128],
+    "garbagevan": [0, 0, 0],
+}
 # If specific colors for classes are needed, fill this dict (e.g. {"class1": [255, 0, 0], "class2": [0, 255, 0]})
 
 PAPER: Optional[str] = None
