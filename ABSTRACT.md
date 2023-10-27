@@ -1,1 +1,1 @@
-**Road Vehicle** dataset contains Bangladesh road valencias images with annotation. This dataset will be a great asset for autonomous vehicles and also for traffic management projects.
+The **Road Vehicle** dataset contains Bangladesh road valencias images with annotation. There are two separate splits in this dataset, one contains *train* images and the other contains *valid* images. The author hopes it  will be a great asset for autonomous vehicles and traffic management projects. The dataset is properly made for YOLO v5 real-time vehicle detection project.
