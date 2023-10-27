@@ -25,7 +25,7 @@ APPLICATIONS: List[Union[Industry, Domain, Research]] = [
     Industry.Utilities(is_used=False),
     Industry.Automotive(is_used=False),
 ]
-CATEGORY: Category = Category.EnergyAndUtilities()
+CATEGORY: Category = Category.EnergyAndUtilities(extra=Category.SelfDriving())
 
 CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.ObjectDetection()]
@@ -79,6 +79,7 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = {
 PAPER: Optional[str] = None
 CITATION_URL: Optional[str] = None
 AUTHORS: Optional[List[str]] = ["Ashfak Yeafi"]
+AUTHORS_CONTACTS: Optional[List[str]] = ["https://ashfakyeafi.github.io/", "yeafiashfak@gmail.com"]
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = None
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = None
@@ -126,6 +127,7 @@ def get_settings():
     settings["paper"] = PAPER
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
