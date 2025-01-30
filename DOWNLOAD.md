@@ -1,6 +1,6 @@
 Dataset **Road Vehicle** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://www.dropbox.com/scl/fi/yv33pm0iberwbyhcf9i0t/road-vehicle-DatasetNinja.tar?rlkey=1fpwyp9drgcaqxchgg9qq3hun&dl=1)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzEwMDZfUm9hZCBWZWhpY2xlL3JvYWQtdmVoaWNsZS1EYXRhc2V0TmluamEudGFyIiwgInNpZyI6ICJCSloyTE1FSU8wVG5pYjN2MDVvUnBxTFh6dXhJWjZMRkdpZVo0SVQzcTZzPSJ9)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
